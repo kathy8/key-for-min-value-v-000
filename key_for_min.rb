@@ -7,12 +7,11 @@ def key_for_min_value(name_hash)
   name_hash.each do |a, b|
     if lowest_value == nil || b < lowest_value
       lowest_value = begin
-        lowest_value = a 
+        lowest_value = a
       end
-    end 
+    end
     lowest_key
-      rescue ExceptionName
-        
+    
       end
 
 end
