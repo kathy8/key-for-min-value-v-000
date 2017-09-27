@@ -6,7 +6,7 @@ lowest_key = nil
 lowest_value = nil
 name_hash.each do |a, b|
 if lowest_value ==nil || b < lowest_value
-lowest_value = begin
+lowest_value = b
 lowest_value = a
 end
 end
